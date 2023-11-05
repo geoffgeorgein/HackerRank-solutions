@@ -23,13 +23,43 @@
   - [Solution](./solution.py)(navigate to the Solution file)
   - Explanation: (Create 2 new variables cost and count.increment the value of cost each time while its less than the available budget.Decrement the value of each item while its less than m)
 
+    ```
+      int howManyGames(int p, int d, int m, int s) {
+    // Return the number of games you can buy
+    int cost=0,ct=0;
+    while(cost<s){
+        
+        
+        
+        if(p<m){
+            cost+=m;
+            
+        }
+        else{
+            
+            cost+=p;
+            p-=d;
+        }
+        
+        if(cost>s) break;
+        ct++;
+   
+    }
+   
+    
+    return ct;
+
+}
+
+    ```
+
 ### Example  
 ---
 ## 3.Jumping on the Clouds
   - [Problem](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)(navigate to the Problem)
   - [Solution](Grading_Students/gradingstudents.py) (navigate to the Solution file)
   - Explanation:
-  > In this problem, I created a program that takes input for the number of grades to be entered, and then prompts the user to enter each grade. The program then rounds each grade according to a specific rule and prints the rounded grades.
+  >  Here I have used i as the counter variable.Increment the counter variable by 2 if the (i+2)th element is 0 else increment by 1.
 ```
 int jumpingOnClouds(vector<int> c) {
     
