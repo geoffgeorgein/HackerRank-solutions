@@ -25,7 +25,7 @@
 
 ### Example  
 ---
-## 3.Grading Students
+## 3.Jumping on the Clouds
   - [Problem](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)(navigate to the Problem)
   - [Solution](Grading_Students/gradingstudents.py) (navigate to the Solution file)
   - Explanation:
