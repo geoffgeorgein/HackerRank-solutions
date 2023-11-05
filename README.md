@@ -53,7 +53,7 @@
 
     ```
 
-### Example  
+
 ---
 ## 3.Jumping on the Clouds
   - [Problem](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)(navigate to the Problem)
@@ -234,7 +234,7 @@ int saveThePrisoner(int n, int m, int s) {
 }
  ```
 
-## 9.Save the Prisoner
+## 9.Caesar Cipher
 
 
 
@@ -261,14 +261,33 @@ int saveThePrisoner(int n, int m, int s) {
         cout << (char)c;
     }
  ```
-input
-```
-1 3 5 7 2 6
-```
-output
-```
-17 23
-```
+
+## 10.Beautiful Binary String
+
+
+
+  - [Problem](https://www.hackerrank.com/challenges/beautiful-binary-string/problem?isFullScreen=false)(navigate to the Problem)
+  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - Explanation:
+  >Traverse the string.Check the ith,(i-1)th and (i+1)the position for the pattern .if pattern exists then change the (i+1)th character to'1'.
+>
+ ```
+ int beautifulBinaryString(string b) {
+    
+    int n=b.length();
+    int ct=0;
+    for(int i=1;i<n-1;i++){
+        
+        if(b[i]=='1' && b[i-1]=='0'  && b[i+1]=='0'){
+            ct++;
+            b[i+1]='1';
+        }
+    }
+    
+    return ct;
+
+}
+
 ****
 
 
