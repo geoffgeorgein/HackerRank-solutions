@@ -16,7 +16,7 @@
   - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/circular_array_rotation.cpp) (navigate to the Solution file)
   - Explanation: (First we create a new vector to store the original array of elements.Then we traverse the vector to store the ith element in the (i+k)th position.
 
-  -  ```
+     ```
     vector<int> circularArrayRotation(vector<int> a, int k, vector<int> queries) {
 
     vector<int>b=a;
