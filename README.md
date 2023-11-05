@@ -15,6 +15,30 @@
   - [Problem](https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=false)(navigate to the Problem)
   - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/circular_array_rotation.cpp) (navigate to the Solution file)
   - Explanation: (First we create a new vector to store the original array of elements.Then we traverse the vector to store the ith element in the (i+k)th position.
+
+  -  ```
+    vector<int> circularArrayRotation(vector<int> a, int k, vector<int> queries) {
+
+    vector<int>b=a;
+    int n=a.size();
+    
+    for(int i=0;i<n;i++){
+        
+        a[(i+k)%n]=b[i];
+        
+        
+    }
+    int m=queries.size();
+    
+    vector<int>ans;
+    
+    for(int j=0;j<m;j++){
+        ans.push_back(a[queries[j]]);
+    }
+    
+    return ans;
+}
+      ```
   
 ### 2. Halloween Sale
 
