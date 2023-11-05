@@ -13,14 +13,14 @@
 
 
   - [Problem](https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=false)(navigate to the Problem)
-  - [Solution](./solution.py) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/circular_array_rotation.cpp) (navigate to the Solution file)
   - Explanation: (First we create a new vector to store the original array of elements.Then we traverse the vector to store the ith element in the (i+k)th position.
   
 ### 2. Halloween Sale
 
 
   - [Problem](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=false)(navigate to the Problem)
-  - [Solution](./solution.py)(navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/halloween_sale.cpp)(navigate to the Solution file)
   - Explanation: (Create 2 new variables cost and count.increment the value of cost each time while its less than the available budget.Decrement the value of each item while its less than m)
 
     ```
@@ -57,7 +57,7 @@
 ---
 ## 3.Jumping on the Clouds
   - [Problem](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)(navigate to the Problem)
-  - [Solution](Grading_Students/gradingstudents.py) (navigate to the Solution file)
+  - [Solution](Grading_Students/gradingstudents.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/jumping_on%20_the_clouds.cpp) (navigate to the Solution file)
   - Explanation:
   >  Here I have used i as the counter variable.Increment the counter variable by 2 if the (i+2)th element is 0 else increment by 1.
 ```
@@ -87,7 +87,7 @@ int jumpingOnClouds(vector<int> c) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/find-the-median/problem)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/find_the_median.cpp) (navigate to the Solution file)
   - Explanation:
   >Sort the array .Return the (n/2)th element.
 >
@@ -105,7 +105,7 @@ int jumpingOnClouds(vector<int> c) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/largest-permutation/forum)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/largest_permutation.cpp) (navigate to the Solution file)
   - Explanation:
   >The given array contains the list of first N Natural numbers.So for each iteration we swap the ith value with the (n-i)th value;
 >
@@ -146,7 +146,7 @@ int jumpingOnClouds(vector<int> c) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/equality-in-a-array/problem)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/equalize_the_array.cpp) (navigate to the Solution file)
   - Explanation:
   >Find the most occuring element in the array.Remove all elements except that element.
 >
@@ -177,7 +177,7 @@ int jumpingOnClouds(vector<int> c) {
 
 ## 7.Almost Sorted
   - [Problem](https://www.hackerrank.com/challenges/almost-sorted/problem)(navigate to the Problem)
-  - [Solution](Grading_Students/gradingstudents.py) (navigate to the Solution file)
+  - [Solution](Grading_Students/gradingstudents.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/almost_sorted.cpp) (navigate to the Solution file)
   - Explanation:
   > if the array is sorted then print "YES". if the array is sorted after swapping the out of place elements then print those elements else try reversing the segment.if the array is still unsorted then print no.
 ```
