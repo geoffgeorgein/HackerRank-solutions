@@ -90,6 +90,16 @@ int jumpingOnClouds(vector<int> c) {
   - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
   - Explanation:
   >Sort the array .Return the (n/2)th element.
+>
+ ```
+  int findMedian(vector<int> arr) {
+    
+    sort(arr.begin(),arr.end());
+    int n=arr.size();
+    return arr[n/2];
+
+}
+ ```
 
 #### The miniMaxSum function takes an array (arr) as input and performs the following steps:
 
