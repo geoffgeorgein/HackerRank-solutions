@@ -219,7 +219,7 @@ void almostSorted(vector<int> arr) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/save-the-prisoner/problem)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/save_the_prisoner.cpp) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/save_the_prisoner.cpp) (navigate to the Solution file)
   - Explanation:
   >Move (m-1) steps from the start and return the modulo of it.
 >
