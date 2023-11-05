@@ -57,7 +57,7 @@
 
 ## 3.Jumping on the Clouds
   - [Problem](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)(navigate to the Problem)
-  - [Solution](Grading_Students/gradingstudents.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/jumping_on%20_the_clouds.cpp) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/jumping_on%20_the_clouds.cpp) (navigate to the Solution file)
   - Explanation:
   >  Here I have used i as the counter variable.Increment the counter variable by 2 if the (i+2)th element is 0 else increment by 1.
 ```
@@ -87,7 +87,7 @@ int jumpingOnClouds(vector<int> c) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/find-the-median/problem)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/find_the_median.cpp) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/find_the_median.cpp) (navigate to the Solution file)
   - Explanation:
   >Sort the array .Return the (n/2)th element.
 >
@@ -105,7 +105,7 @@ int jumpingOnClouds(vector<int> c) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/largest-permutation/forum)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/largest_permutation.cpp) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/largest_permutation.cpp) (navigate to the Solution file)
   - Explanation:
   >The given array contains the list of first N Natural numbers.So for each iteration we swap the ith value with the (n-i)th value;
 >
@@ -146,7 +146,7 @@ int jumpingOnClouds(vector<int> c) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/equality-in-a-array/problem)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/equalize_the_array.cpp) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/equalize_the_array.cpp) (navigate to the Solution file)
   - Explanation:
   >Find the most occuring element in the array.Remove all elements except that element.
 >
