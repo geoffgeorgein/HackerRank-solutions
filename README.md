@@ -213,6 +213,54 @@ void almostSorted(vector<int> arr) {
 
     }
 ```
+
+## 8.Save the Prisoner
+
+
+
+  - [Problem](https://www.hackerrank.com/challenges/save-the-prisoner/problem)(navigate to the Problem)
+  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - Explanation:
+  >Move (m-1) steps from the start and return the modulo of it.
+>
+ ```
+int saveThePrisoner(int n, int m, int s) {
+    
+    if((s+(m-1))%n==0){
+        return n;
+    }
+    return (s+(m-1))%n;
+
+}
+ ```
+
+## 9.Save the Prisoner
+
+
+
+  - [Problem](https://www.hackerrank.com/challenges/caesar-cipher-1/problem?isFullScreen=false)(navigate to the Problem)
+  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - Explanation:
+  >Evaluate seperately for upper case and lowercase letters. Use modulo since it can exceed the given range.
+>
+ ```
+ k %= 26;
+    for (int i = 0;i < n; i++) {
+        int c = s[i];
+        if (c >= 'a' && c <= 'z') { 
+            c += k;
+            if (c > 'z') { 
+               c = 96 + (c % 122); 
+            }
+        } else if(c >= 'A' && c <= 'Z') { 
+            c += k;
+            if(c > 'Z') { 
+                c = 64 + (c % 90); 
+            }
+        }
+        cout << (char)c;
+    }
+ ```
 input
 ```
 1 3 5 7 2 6
