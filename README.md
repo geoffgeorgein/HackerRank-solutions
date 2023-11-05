@@ -30,16 +30,27 @@
   - [Solution](Grading_Students/gradingstudents.py) (navigate to the Solution file)
   - Explanation:
   > In this problem, I created a program that takes input for the number of grades to be entered, and then prompts the user to enter each grade. The program then rounds each grade according to a specific rule and prints the rounded grades.
-```python
-n = int(input().strip())
-
-for _ in range(n):
-    grade = int(input().strip())
+```
+int jumpingOnClouds(vector<int> c) {
     
-    if grade >= 38 and grade % 5 >= 3:
-        grade += 5 - (grade % 5)
+    int n=c.size();
+    int ct=0,i=0;
+    while(i<n){
+        
+        if(i<n-2 && c[i+2]!=1){
+            i+=2;
+            
+        }
+        else{
+            if(i==n-1) break;
+            i+=1;
+        }
+        // cout<<i<<" ";
+        ct++;
+    }
+    return ct;
 
-    print(grade)
+}
 
 ```
 
