@@ -175,11 +175,11 @@ int jumpingOnClouds(vector<int> c) {
 
  ```
 
-## 7.Jumping on the Clouds
+## 7.Almost Sorted
   - [Problem](https://www.hackerrank.com/challenges/almost-sorted/problem)(navigate to the Problem)
   - [Solution](Grading_Students/gradingstudents.py) (navigate to the Solution file)
   - Explanation:
-  >  Here I have used i as the counter variable.Increment the counter variable by 2 if the (i+2)th element is 0 else increment by 1.
+  > if the array is sorted then print "YES". if the array is sorted after swapping the out of place elements then print those elements else try reversing the segment.if the array is still unsorted then print no.
 ```
 void almostSorted(vector<int> arr) {
     
