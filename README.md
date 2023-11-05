@@ -177,7 +177,7 @@ int jumpingOnClouds(vector<int> c) {
 
 ## 7.Almost Sorted
   - [Problem](https://www.hackerrank.com/challenges/almost-sorted/problem)(navigate to the Problem)
-  - [Solution](Grading_Students/gradingstudents.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/almost_sorted.cpp) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/almost_sorted.cpp) (navigate to the Solution file)
   - Explanation:
   > if the array is sorted then print "YES". if the array is sorted after swapping the out of place elements then print those elements else try reversing the segment.if the array is still unsorted then print no.
 ```
@@ -239,7 +239,7 @@ int saveThePrisoner(int n, int m, int s) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/caesar-cipher-1/problem?isFullScreen=false)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/caesar_cipher.cpp) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/caesar_cipher.cpp) (navigate to the Solution file)
   - Explanation:
   >Evaluate seperately for upper case and lowercase letters. Use modulo since it can exceed the given range.
 >
@@ -267,7 +267,7 @@ int saveThePrisoner(int n, int m, int s) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/beautiful-binary-string/problem?isFullScreen=false)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/beautiful%20binary-string.cpp) (navigate to the Solution file)
+  - [Solution](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/beautiful%20binary-string.cpp) (navigate to the Solution file)
   - Explanation:
   >Traverse the string.Check the ith,(i-1)th and (i+1)the position for the pattern .if pattern exists then change the (i+1)th character to'1'.
 >
