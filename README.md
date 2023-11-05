@@ -219,7 +219,7 @@ void almostSorted(vector<int> arr) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/save-the-prisoner/problem)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/save_the_prisoner.cpp) (navigate to the Solution file)
   - Explanation:
   >Move (m-1) steps from the start and return the modulo of it.
 >
@@ -239,7 +239,7 @@ int saveThePrisoner(int n, int m, int s) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/caesar-cipher-1/problem?isFullScreen=false)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/caesar_cipher.cpp) (navigate to the Solution file)
   - Explanation:
   >Evaluate seperately for upper case and lowercase letters. Use modulo since it can exceed the given range.
 >
@@ -267,7 +267,7 @@ int saveThePrisoner(int n, int m, int s) {
 
 
   - [Problem](https://www.hackerrank.com/challenges/beautiful-binary-string/problem?isFullScreen=false)(navigate to the Problem)
-  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - [Solution](Mini-Max_Sum/minimaxsum.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/beautiful%20binary-string.cpp) (navigate to the Solution file)
   - Explanation:
   >Traverse the string.Check the ith,(i-1)th and (i+1)the position for the pattern .if pattern exists then change the (i+1)th character to'1'.
 >
