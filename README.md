@@ -9,14 +9,14 @@
 
 >In the "Solution Approach" section, provide a detailed explanation of your approach to solving the problem. Describe the algorithm, data structures, and any key insights that led to your solution. This helps others understand your thought process and learn from your solutions.
 
-### Circular Array Rotation
+### 1. Circular Array Rotation
 
 
   - [Problem](https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=false)(navigate to the Problem)
   - [Solution](./solution.py) (navigate to the Solution file)
   - Explanation: (First we create a new vector to store the original array of elements.Then we traverse the vector to store the ith element in the (i+k)th position.
   
-### Halloween Sale
+### 2. Halloween Sale
 
 
   - [Problem](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=false)(navigate to the Problem)
@@ -174,6 +174,45 @@ int jumpingOnClouds(vector<int> c) {
 }
 
  ```
+
+## 7.Jumping on the Clouds
+  - [Problem](https://www.hackerrank.com/challenges/almost-sorted/problem)(navigate to the Problem)
+  - [Solution](Grading_Students/gradingstudents.py) (navigate to the Solution file)
+  - Explanation:
+  >  Here I have used i as the counter variable.Increment the counter variable by 2 if the (i+2)th element is 0 else increment by 1.
+```
+void almostSorted(vector<int> arr) {
+    
+    if(is_sorted(arr.begin(), arr.end())) { cout << "yes"; return;}
+        
+    int first, last;
+
+    for(int i = 0; i < arr.size() - 1; i++) 
+        if (arr[i] > arr[i + 1]) 
+            { first = i; break; }
+
+    for(int i = arr.size() - 1; i > 0; i--) 
+        if(arr[i - 1] > arr[i]) 
+            { last = i; break; }
+
+    swap(arr[first], arr[last]);
+    if(is_sorted(arr.begin(), arr.end())) { 
+        cout << "yes" << endl << "swap " << first + 1 << " " << last + 1; 
+        return; 
+    }
+    swap(arr[first], arr[last]);
+
+    reverse(arr.begin() + first, arr.begin() + last + 1);
+
+    if(is_sorted(arr.begin(), arr.end())) { 
+        cout << "yes" << endl << "reverse " << first + 1 << " " << last + 1; 
+        return; 
+    }
+
+    cout << "no";
+
+    }
+```
 input
 ```
 1 3 5 7 2 6
