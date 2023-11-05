@@ -19,7 +19,7 @@
 ### Halloween Sale
 
 
-  - [Problem]([https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=false))(navigate to the Problem)
+  - [Problem]((https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=false))(navigate to the Problem)
   - [Solution](./solution.py)(navigate to the Solution file)
   - Explanation: (Create 2 new variables cost and count.increment the value of cost each time while its less than the available budget.Decrement the value of each item while its less than m)
 
