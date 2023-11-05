@@ -101,43 +101,45 @@ int jumpingOnClouds(vector<int> c) {
 }
  ```
 
-#### The miniMaxSum function takes an array (arr) as input and performs the following steps:
+## 5.Largest Permutation
 
- 1.Sorts the array in ascending order using the sort() method.
 
- 2.Calculates the sum of all elements except the last one using the sum() function and slicing (arr[:-1]).
+  - [Problem](https://www.hackerrank.com/challenges/largest-permutation/forum)(navigate to the Problem)
+  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - Explanation:
+  >The given array contains the list of first N Natural numbers.So for each iteration we swap the ith value with the (n-i)th value;
+>
+ ```
+  vector<int> largestPermutation(int k, vector<int> arr) {
 
- 3.Calculates the sum of all elements except the first one using the sum() function and slicing (arr[1:]).
-
- 4.Prints the minimum sum and maximum sum.
-
- code with an example. Consider the following input:
-
-```python
-def miniMaxSum(arr):
-    arr.sort()
-    print(sum(arr[:-1]), sum(arr[1:]))
-
-if __name__ == '__main__':
-    arr = list(map(int, input().split()))
-    miniMaxSum(arr)
-
-```
- The miniMaxSum function will perform the following steps:
-
- Example input: arr = 5 2 3 4 1
-
- ```arr.sort()```: Sorts arr in ascending order = [1,2,3,4,5]
-
- ```sum(arr[:-1])```: Calculate the minimum sum by removing last element of array: 1+2+3+4 = 10
-
- ```sum(arr[1:])```: Calculate the maximum sum by removing first element of array: 2+3+4+5= 14
-
- Print the minimum sum: 10
- 
- Print the maximum sum: 14
-
-#### Sample input & output
+    int n=arr.size();
+    
+    vector<int>pos(n+1);
+    
+    for(int i=0;i<n;i++){
+        pos[arr[i]]=i;
+    }
+    vector<int>b=arr;
+    int i=0;
+    
+    while(k>0 && i <n){
+        
+        if(arr[i]!=n-i){
+            int t=arr[i];
+        swap(arr[i],arr[pos[n-i]]);
+        pos[t]=pos[n-i];
+        pos[n-i]=i;
+        
+        k--;
+        }
+        i++;
+        }
+        
+    
+    
+    return arr;
+}
+ ```
 input
 ```
 1 3 5 7 2 6
