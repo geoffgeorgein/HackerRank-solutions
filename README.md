@@ -140,6 +140,40 @@ int jumpingOnClouds(vector<int> c) {
     return arr;
 }
  ```
+
+## 6.Equalize the Array
+
+
+
+  - [Problem](https://www.hackerrank.com/challenges/equality-in-a-array/problem)(navigate to the Problem)
+  - [Solution](Mini-Max_Sum/minimaxsum.py) (navigate to the Solution file)
+  - Explanation:
+  >Find the most occuring element in the array.Remove all elements except that element.
+>
+ ```
+  int equalizeArray(vector<int> arr) {
+    
+    int n=arr.size();
+    int mx=0;
+    
+    map<int,int>m1;
+    
+    for(int i=0;i<n;i++){
+        m1[arr[i]]++;
+        
+    }
+    
+    for(auto it:m1){
+        
+        if(it.second>mx) mx=it.second;
+        
+    }
+    
+    return (n-mx);
+
+}
+
+ ```
 input
 ```
 1 3 5 7 2 6
