@@ -14,7 +14,7 @@
 
   - [Problem]([https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true](https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=false))(navigate to the Problem)
   - [Solution](./solution.py) (navigate to the Solution file)
-  - Explanation: (First we create a new vector to store the original array of elements.Then we traverse the vector to store the ith wlwmwnt in the (i+k)th position.
+  - Explanation: (First we create a new vector to store the original array of elements.Then we traverse the vector to store the ith element in the (i+k)th position.
   
 ### Problem 2
 
