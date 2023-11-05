@@ -54,7 +54,7 @@
     ```
 
 
----
+
 ## 3.Jumping on the Clouds
   - [Problem](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)(navigate to the Problem)
   - [Solution](Grading_Students/gradingstudents.py](https://github.com/geoffgeorgein/HackerRank-solutions/blob/main/jumping_on%20_the_clouds.cpp) (navigate to the Solution file)
